@@ -32,9 +32,10 @@ api-testing-portfolio/
 │       └── Restful-Booker.postman_environment.json
 ├── .github/
 │   └── workflows/
-│       └── api-tests.yml        # CI pipeline that runs the suite on every push
-├── reports/                      # Newman HTML/JUnit reports land here
-├── package.json                  # Newman scripts
+│       └── api-tests.yml       # CI pipeline that runs the suite on every push
+├── reports/
+│       └── report.html          # Newman HTML/JUnit reports land here
+├── package.json                 # Newman scripts
 └── README.md
 ```
 
